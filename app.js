@@ -1,6 +1,6 @@
-const a = 5;
-const b = 2;
-const myName = "Kimdh";
+let a = 5;
+let b = 2;
+let myName = "Kimdh";
 
 console.log(a + b);
 console.log(a * b);
