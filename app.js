@@ -1,23 +1,19 @@
 const calculator = {
-  add: function (a, b) {
-    console.log(a + b);
+  plus: function (a, b) {
+    return a + b;
   },
   minus: function (a, b) {
-    console.log(a - b);
+    return a - b;
   },
   multiple: function (a, b) {
-    console.log(a * b);
+    return a * b;
   },
   divide: function (a, b) {
-    console.log(a / b);
+    return a / b;
   },
   powerOf: function (a, b) {
-    console.log(a ** b);
+    return a ** b;
   },
 };
 
-calculator.add(5, 2);
-calculator.minus(5, 2);
-calculator.multiple(5, 2);
-calculator.divide(5, 2);
-calculator.powerOf(5, 2);
+const a = calculator.plus(4, 5);
