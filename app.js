@@ -1,9 +1,9 @@
 const player = {
   name: "nico",
-  sayhello: function (nameOfPersion) {
-    console.log("Hello " + nameOfPersion + " nice to meet you");
-  },
+  age: 98,
 };
 
-console.log(player.name);
-player.sayhello("dong");
+player.name = "DH";
+player.sexy = "soon";
+
+console.log(player);
