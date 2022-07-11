@@ -1,9 +1,11 @@
 body {
-  background-color: aliceblue;
+  background-color: rgb(224, 224, 224);
+  font-family: "Ibarra Real Nova", serif;
 }
 
 .header_title {
-  margin-top: 20px;
+  margin-top: 40px;
+  margin-bottom: 80px;
   display: flex;
   justify-content: center;
   font-weight: 1000;
@@ -12,9 +14,8 @@ body {
 
 .color_body {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-wrap: wrap;
-  position: relative;
 }
 
 .color_body__box {
@@ -26,40 +27,67 @@ body {
 
 .color_body__box:first-child {
   background-color: tomato;
+  position: relative;
 }
 .color_body__box:nth-child(2) {
   background-color: teal;
+  position: relative;
 }
 .color_body__box:nth-child(3) {
   background-color: burlywood;
+  position: relative;
 }
 .color_body__box:last-child {
   background-color: thistle;
+  position: relative;
+}
+
+.color_name {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .color_name_content {
   background-color: white;
   width: 300px;
-  height: 120px;
-  position: absolute;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.color_name_content {
+  padding: 10px 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.color_name_content h1 {
+  font-size: 40px;
+}
+
+.color_name_content span {
+  font-size: 30px;
+  font-weight: 1000;
 }
 
 .color_name_tomato {
-  top: 150px;
-  left: 69px;
-}
-
-.color_name_teal {
-  top: 150px;
-  left: 403px;
+  position: absolute;
+  top: 50px;
 }
 
 .color_name_burlywood {
-  top: 150px;
-  left: 737px;
+  position: absolute;
+  top: 50px;
+}
+
+.color_name_teal {
+  position: absolute;
+  top: 50px;
 }
 
 .color_name_thistle {
-  top: 150px;
-  left: 1071px;
+  position: absolute;
+  top: 50px;
 }
