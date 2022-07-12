@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(90, 175, 176);
+}
+
+.loading_circle {
+  margin: 0px 250px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.loading_circle_element {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+}
