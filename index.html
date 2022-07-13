@@ -1,20 +1,85 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/b9df1fece5.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <div class="loading_circle">
-      <div class="loading_circle_element"></div>
-      <div class="loading_circle_element"></div>
-      <div class="loading_circle_element"></div>
-    </div>
-    <div class="loading_square">
-      <div class="loading_square_element square_1"></div>
-      <div class="loading_square_element square_2"></div>
-      <div class="loading_square_element square_3"></div>
-      <div class="loading_square_element square_4"></div>
-      <div class="loading_square_element square_5"></div>
+    <div class="music_play">
+      <div class="music_play_header">
+        <div class="music_play_header_cancle">
+          <i class="fa-solid fa-x"></i>
+        </div>
+        <div class="music_play_header_title">
+          <span>Playlist</span>
+        </div>
+        <div class="music_play_header_empty"></div>
+      </div>
+
+      <div class="music_play_album">
+        <div class="music_play_album_photo">
+          <img src="Unknown.png" />
+        </div>
+        <div class="music_play_album_header">
+          <div class="music_play_album_name">
+            <h1>
+              Random<br />
+              Love
+            </h1>
+          </div>
+          <div class="music_play_album_title">
+            <span>by Divay Kapoor</span>
+          </div>
+        </div>
+      </div>
+
+      <form class="music_play_button">
+        <button class="music_play_button_play">
+          <i class="fa-solid fa-play"></i>
+          <span>Play</span>
+        </button>
+        <button class="music_play_button_heart">
+          <i class="fa-solid fa-heart fa-2x"></i>
+        </button>
+        <button class="music_play_button_plus">
+          <i class="fa-solid fa-plus fa-2x"></i>
+        </button>
+      </form>
+
+      <ul class="music_chart">
+        <div class="music_chart__box">
+          <div class="music_chart__album tomato"></div>
+          <div class="music_chart__title">
+            <h1>Matargasti</h1>
+            <span>Mohit Chauhan</span>
+          </div>
+        </div>
+        <li class="music_chart__box">
+          <div class="music_chart__album thistle"></div>
+          <div class="music_chart__title">
+            <h1>Attitude</h1>
+            <span>Lewis OfMan·Attitude</span>
+          </div>
+        </li>
+        <li class="music_chart__box">
+          <div class="music_chart__album blue"></div>
+          <div class="music_chart__title">
+            <h1>Try Everything</h1>
+            <span>Shakira·Zooropia</span>
+          </div>
+        </li>
+        <li class="music_chart__box">
+          <div class="music_chart__album green"></div>
+          <div class="music_chart__title">
+            <h1>Sunflower</h1>
+            <span>Joseph Vincent·Sunflower</span>
+          </div>
+        </li>
+      </ul>
     </div>
   </body>
 </html>
