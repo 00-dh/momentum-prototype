@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
     <link rel="stylesheet" href="style.css" />
     <script
       src="https://kit.fontawesome.com/b9df1fece5.js"
@@ -9,77 +8,128 @@
     ></script>
   </head>
   <body>
-    <div class="music_play">
-      <div class="music_play_header">
-        <div class="music_play_header_cancle">
-          <i class="fa-solid fa-x"></i>
+    <div class="library">
+      <div class="header">
+        <div class="header_index">
+          <a href="#"> <i class="fa-solid fa-bars"></i></a>
         </div>
-        <div class="music_play_header_title">
-          <span>Playlist</span>
+        <div class="header_title">
+          <a href="index.html"><span>library</span></a>
         </div>
-        <div class="music_play_header_empty"></div>
-      </div>
-
-      <div class="music_play_album">
-        <div class="music_play_album_photo">
-          <img src="Unknown.png" />
-        </div>
-        <div class="music_play_album_header">
-          <div class="music_play_album_name">
-            <h1>
-              Random<br />
-              Love
-            </h1>
-          </div>
-          <div class="music_play_album_title">
-            <span>by Divay Kapoor</span>
-          </div>
+        <div class="header_shopingBag">
+          <a href="#"> <i class="fa-solid fa-bag-shopping"></i></a>
         </div>
       </div>
 
-      <form class="music_play_button">
-        <button class="music_play_button_play">
-          <i class="fa-solid fa-play"></i>
-          <span>Play</span>
-        </button>
-        <button class="music_play_button_heart">
-          <i class="fa-solid fa-heart fa-2x"></i>
-        </button>
-        <button class="music_play_button_plus">
-          <i class="fa-solid fa-plus fa-2x"></i>
-        </button>
+      <form class="search">
+        <div class="search_box">
+          <input type="text" placeholder="Search books...." />
+          <i
+            style="color: rgb(222, 222, 222)"
+            class="fa-solid fa-magnifying-glass fa-lg"
+          ></i>
+        </div>
       </form>
 
-      <ul class="music_chart">
-        <div class="music_chart__box">
-          <div class="music_chart__album tomato"></div>
-          <div class="music_chart__title">
-            <h1>Matargasti</h1>
-            <span>Mohit Chauhan</span>
+      <div class="book_of_the_day">
+        <h1>Book of the day</h1>
+        <div class="book_of_the_day_content">
+          <img src="No.jpeg" />
+          <div class="book_of_the_day_text">
+            <h1>No Fixed Abode</h1>
+            <span>Journey Through</span>
+            <div>
+              <i style="color: gold" class="fa-solid fa-star"></i>
+              <i style="color: gold" class="fa-solid fa-star"></i>
+              <i style="color: gold" class="fa-solid fa-star"></i>
+              <i style="color: gold" class="fa-solid fa-star"></i>
+              <i style="color: rgb(233, 233, 233)" class="fa-solid fa-star"></i>
+            </div>
+            <div class="book_of_the_day_button_1">
+              <button>
+                <span>Journey</span>
+              </button>
+              <button>
+                <span>Biography</span>
+              </button>
+            </div>
+            <div class="book_of_the_day_button_2">
+              <button class="book_of_the_day_button_2_bm">
+                <i class="fa-solid fa-bookmark fa-2x"></i>
+              </button>
+              <button class="book_of_the_day_button_2_bn">
+                <span>Book Now</span>
+              </button>
+            </div>
           </div>
         </div>
-        <li class="music_chart__box">
-          <div class="music_chart__album thistle"></div>
-          <div class="music_chart__title">
-            <h1>Attitude</h1>
-            <span>Lewis OfMan·Attitude</span>
+      </div>
+
+      <div class="top_adventures">
+        <h1>Top adventures</h1>
+        <div class="top_adventures_box">
+          <div class="top_adventures_box_content">
+            <img src="hold.jpeg" />
+            <div>
+              <i style="color: gold" class="fa-solid fa-star"></i>
+              <i style="color: gold" class="fa-solid fa-star"></i>
+              <i style="color: gold" class="fa-solid fa-star"></i>
+              <i style="color: gold" class="fa-solid fa-star"></i>
+              <i style="color: rgb(233, 233, 233)" class="fa-solid fa-star"></i>
+            </div>
           </div>
-        </li>
-        <li class="music_chart__box">
-          <div class="music_chart__album blue"></div>
-          <div class="music_chart__title">
-            <h1>Try Everything</h1>
-            <span>Shakira·Zooropia</span>
+          <div class="top_adventures_box_content">
+            <img src="jungle.jpeg" />
+            <div>
+              <i style="color: gold" class="fa-solid fa-star"></i>
+              <i style="color: gold" class="fa-solid fa-star"></i>
+              <i style="color: gold" class="fa-solid fa-star"></i>
+              <i style="color: gold" class="fa-solid fa-star"></i>
+              <i style="color: rgb(233, 233, 233)" class="fa-solid fa-star"></i>
+            </div>
           </div>
-        </li>
-        <li class="music_chart__box">
-          <div class="music_chart__album green"></div>
-          <div class="music_chart__title">
-            <h1>Sunflower</h1>
-            <span>Joseph Vincent·Sunflower</span>
+          <div class="top_adventures_box_content">
+            <img src="oldman.jpeg" />
+            <div>
+              <i style="color: gold" class="fa-solid fa-star"></i>
+              <i style="color: gold" class="fa-solid fa-star"></i>
+              <i style="color: gold" class="fa-solid fa-star"></i>
+              <i style="color: gold" class="fa-solid fa-star"></i>
+              <i style="color: rgb(233, 233, 233)" class="fa-solid fa-star"></i>
+            </div>
           </div>
-        </li>
-      </ul>
+          <div class="top_adventures_box_content">
+            <img src="oz.jpeg" />
+            <div>
+              <i style="color: gold" class="fa-solid fa-star"></i>
+              <i style="color: gold" class="fa-solid fa-star"></i>
+              <i style="color: gold" class="fa-solid fa-star"></i>
+              <i style="color: gold" class="fa-solid fa-star"></i>
+              <i style="color: rgb(233, 233, 233)" class="fa-solid fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="popular_author">
+        <h1>Popular Author</h1>
+        <div class="popular_author_content">
+          <div>
+            <img src="george.jpeg" />
+          </div>
+          <div>
+            <h1>
+              George Raymond
+              <br />
+              Richard Martin
+            </h1>
+            <span>
+              Modern American science fiction writer, screenswriter, producer
+              and editor, winner of many literary awards.
+            </span>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
