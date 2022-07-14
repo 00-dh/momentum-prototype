@@ -1,4 +1,5 @@
-@import url("music_header.css");
-@import url("music_play_album.css");
-@import url("music_play_button.css");
-@import url("music_chart.css");
+@import url("header.css");
+@import url("search.css");
+@import url("book_of_the_day.css");
+@import url("top_adventures.css");
+@import url("popular_author.css");
