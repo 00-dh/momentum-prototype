@@ -1,0 +1,68 @@
+.book_of_the_day {
+  margin-top: 60px;
+  margin-left: 10px;
+}
+
+.book_of_the_day_content {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+}
+
+.book_of_the_day_content img {
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.book_of_the_day_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.book_of_the_day_text > span {
+  display: block;
+  margin-top: -50px;
+  color: gray;
+}
+.book_of_the_day_text > h1 {
+  display: block;
+  margin-top: -10px;
+}
+
+.book_of_the_day_button_1 button {
+  border: none;
+  background-color: rgb(245, 245, 245);
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 120px;
+}
+
+.book_of_the_day_button_2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.book_of_the_day_button_2_bm {
+  background-color: gold;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.book_of_the_day_button_2_bn {
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  width: 150px;
+  height: 50px;
+}
