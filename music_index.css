@@ -113,10 +113,10 @@
 
 .music_index_content:hover .music_index_content_bar:first-child,
 .music_index_content:hover .music_index_content_bar:last-child {
-  animation: music_play 1s ease-in-out infinite;
+  animation: music_play 2s ease-in-out infinite;
 }
 .music_index_content:hover .music_index_content_bar:nth-child(2) {
-  animation: music_play_2 1s ease-in-out infinite;
+  animation: music_play_2 2s ease-in-out infinite;
 }
 
 .music_index_content_play {
