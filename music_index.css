@@ -68,10 +68,16 @@
   margin-bottom: 10px;
 }
 
+.music_index_content_photo {
+  display: flex;
+  justify-content: flex-start;
+}
+
 .music_index_content img {
   width: 80px;
   height: 80px;
   border-radius: 15px;
+  margin-right: 10px;
 }
 
 .music_index_content_dot {
