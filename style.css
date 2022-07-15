@@ -1,0 +1,20 @@
+@import url("music_index.css");
+
+body {
+  background-color: rgb(245, 245, 245);
+}
+
+.music {
+  display: flex;
+  justify-content: space-around;
+}
+
+.music_index,
+.music_play {
+  width: 35%;
+  height: 90%;
+}
+
+.music_index_box {
+  margin-top: 30px;
+}
