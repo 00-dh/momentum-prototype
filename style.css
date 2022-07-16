@@ -1,4 +1,9 @@
-@import url("music_index.css");
+/*music_index*/
+@import url("music_index/index_header.css");
+@import url("music_index/index_profile.css");
+@import url("music_index/index_button.css");
+@import url("music_index/index_content.css");
+@import url("music_index/index_search.css");
 
 body {
   background-color: rgb(245, 245, 245);
@@ -13,8 +18,9 @@ body {
 
 .music_index,
 .music_play {
-  width: 35%;
-  height: 90%;
+  overflow-x: scroll;
+  height: 110vh;
+  width: 30%;
 }
 
 .music_index_box {
