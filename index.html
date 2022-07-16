@@ -13,6 +13,7 @@
       crossorigin="anonymous"
     ></script>
   </head>
+
   <body class="music">
     <div class="music_index">
       <div class="music_index_header">
@@ -174,9 +175,37 @@
       </div>
     </div>
     <div class="music_play">
-      <div>
-        <i class="fa-solid fa-arrow-left"></i>
-        <i class="fa-solid fa-magnifying-glass"></i>
+      <div class="music_index_header">
+        <i class="fa-solid fa-arrow-left fa-lg"></i>
+        <i class="fa-solid fa-ellipsis-vertical fa-lg"></i>
+      </div>
+
+      <div class="music_play_album">
+        <div class="music_play_album_photo">
+          <img src="ear.jpeg" />
+        </div>
+
+        <div class="music_play_album_title">
+          <span class="title">EARFQUAKE</span>
+          <span class="tyler">Tyler, the Creator</span>
+        </div>
+
+        <div class="music_play_album_timeline">
+          <span>1:10</span>
+          <span>2:20</span>
+        </div>
+
+        <div class="music_play_album_bar">
+          <input type="range" style="width: 370px" style="color: black" />
+        </div>
+
+        <div class="music_play_button">
+          <i style="color: gray" class="fa-solid fa-repeat fa-lg"></i>
+          <i class="fa-solid fa-backward-step fa-3x"></i>
+          <i class="fa-solid fa-circle-play fa-5x"></i>
+          <i class="fa-solid fa-forward-step fa-3x"></i>
+          <i style="color: gray" class="fa-solid fa-shuffle fa-lg"></i>
+        </div>
       </div>
     </div>
   </body>
