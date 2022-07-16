@@ -14,15 +14,16 @@ body {
 .music {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .music_index,
 .music_play {
+  margin-top: 25px;
   overflow-x: scroll;
-  height: 110vh;
+  height: 750px;
   width: 30%;
 }
-
 .music_index_box {
   margin-top: 30px;
 }
