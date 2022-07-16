@@ -5,6 +5,9 @@
 @import url("music_index/index_content.css");
 @import url("music_index/index_search.css");
 
+/*music_play*/
+@import url("music_play/play_album.css");
+
 body {
   background-color: rgb(245, 245, 245);
   font-family: "Ibarra Real Nova", serif;
@@ -13,7 +16,7 @@ body {
 
 .music {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 
@@ -23,6 +26,8 @@ body {
   overflow-x: scroll;
   height: 750px;
   width: 30%;
+  background-color: white;
+  border-radius: 20px;
 }
 .music_index_box {
   margin-top: 30px;
