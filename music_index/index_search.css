@@ -8,8 +8,8 @@
   border-radius: 50px;
   box-shadow: 0px 5px 20px gray;
   position: fixed;
-  bottom: 0;
-  width: 27%;
+  bottom: 40px;
+  width: 390px;
 }
 
 .music_index_search_name {
