@@ -1,0 +1,31 @@
+.music_index_button {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.music_index_button button {
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+}
+
+.music_index_button_Shuffle {
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  margin-right: 30px;
+  box-shadow: 0px 1px 10px rgb(176, 176, 176);
+}
+
+.music_index_button_heart {
+  background-color: white;
+  border: none;
+  font-size: 22px;
+  box-shadow: 0px 1px 10px rgb(176, 176, 176);
+}
+
+.music_index_button_heart span {
+  color: rgb(176, 176, 176);
+}
