@@ -1,34 +1,62 @@
-/*music_index*/
-@import url("music_index/index_header.css");
-@import url("music_index/index_profile.css");
-@import url("music_index/index_button.css");
-@import url("music_index/index_content.css");
-@import url("music_index/index_search.css");
-
-/*music_play*/
-@import url("music_play/play_album.css");
-
 body {
-  background-color: rgb(245, 245, 245);
-  font-family: "Ibarra Real Nova", serif;
-  font-family: "Nunito", sans-serif;
+  background-color: rgb(24, 23, 22);
 }
 
-.music {
+.box {
   display: flex;
-  justify-content: space-evenly;
+  width: 100vw;
+  height: 95vh;
+  justify-content: center;
   align-items: center;
 }
 
-.music_index,
-.music_play {
-  margin-top: 25px;
-  overflow-x: scroll;
-  height: 750px;
-  width: 30%;
-  background-color: white;
+.music-bar {
+  width: 20px;
+  height: 80px;
   border-radius: 20px;
+  background-color: rgb(218, 111, 69);
+  margin-right: 10px;
+  animation: bounce 2.2s ease-in-out infinite alternate;
+  transform-origin: bottom;
 }
-.music_index_box {
-  margin-top: 30px;
+
+.music-bar:nth-child(2) {
+  animation-delay: -2.2s;
+}
+
+.music-bar:nth-child(3) {
+  animation-delay: -3.7s;
+}
+
+@keyframes bounce {
+  10% {
+    transform: scaleY(0.3); /* start by scaling to 30% */
+  }
+
+  30% {
+    transform: scaleY(0.75); /* scale up to 100% */
+  }
+
+  60% {
+    transform: scaleY(0.5); /* scale down to 50% */
+  }
+
+  80% {
+    transform: scaleY(0.75); /* scale up to 75% */
+  }
+
+  100% {
+    transform: scaleY(0.6); /* scale down to 60% */
+  }
+}
+@keyframes music_play_2 {
+  0% {
+    transform: scaleY(1.6);
+  }
+  50% {
+    transform: none;
+  }
+  100% {
+    transform: scaleY(1.6);
+  }
 }
