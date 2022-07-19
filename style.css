@@ -5,9 +5,41 @@ body {
 .box {
   display: flex;
   width: 100vw;
-  height: 95vh;
+  height: 50vh;
   justify-content: center;
   align-items: center;
+}
+
+.loading {
+  width: 20px;
+  height: 20px;
+  background-color: rgb(218, 111, 69);
+  border-radius: 50%;
+}
+
+.loading:first-child,
+.loading:last-child {
+  opacity: 0.6;
+}
+
+.loading:nth-child(2) {
+  margin: 10px;
+}
+
+.music-play {
+  animation: loading 2s ease-in-out infinite;
+}
+
+@keyframes loading {
+  0% {
+    transform: none;
+  }
+  40% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
 }
 
 .music-bar {
