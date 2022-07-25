@@ -1,12 +1,3 @@
-const a = 5;
-const b = 3;
-let myName = "nico";
+const title = document.querySelector(".hello h1");
 
-console.log(a + b);
-console.log(a - b);
-console.log(a / b);
-console.log("hello " + myName);
-
-myName = "nicolas";
-
-console.log("your name is " + myName);
+console.log(title);
