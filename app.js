@@ -4,4 +4,15 @@ function handleTitleClick() {
   title.style.color = "blue";
 }
 
-title.addEventListener("click", handleTitleClick);
+title.onclick = handleTitleClick;
+
+function mouseEnter() {
+  title.innerText = "mouse is here";
+}
+
+function mouseLeave() {
+  title.innerText = "mouse is gone";
+}
+
+title.addEventListener("mouseenter", mouseEnter);
+title.addEventListener("mouseleave", mouseLeave);
