@@ -16,3 +16,25 @@ function mouseLeave() {
 
 title.addEventListener("mouseenter", mouseEnter);
 title.addEventListener("mouseleave", mouseLeave);
+
+function handleWindowResize() {
+  document.body.style.backgroundColor = "tomato";
+}
+
+window.addEventListener("resize", handleWindowResize);
+
+function handleWindowCopy() {
+  alert("copier");
+}
+
+title.addEventListener("copy", handleWindowCopy);
+
+function handleWindowOffline() {
+  alert("SOS no wifi!");
+}
+function handleWindowOnline() {
+  alert("ALL GOOD!");
+}
+
+window.addEventListener("offline", handleWindowOffline);
+window.addEventListener("online", handleWindowOnline);
