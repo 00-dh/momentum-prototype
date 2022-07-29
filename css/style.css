@@ -1,8 +1,4 @@
-.hidden {
-  display: none;
-}
-
-img {
+/* img {
   z-index: -1;
   position: absolute;
   top: 0;
@@ -14,6 +10,7 @@ img {
 
 #clock,
 .greetings,
+.login-form,
 #quote {
   color: white;
   display: flex;
@@ -22,22 +19,30 @@ img {
 }
 
 #clock {
+  left: 0;
   margin: 0px;
+  margin-top: 200px;
   font-size: 150px;
   font-family: "Mochiy Pop One", sans-serif;
 }
 
 .greetings {
+  margin: 0px;
   font-size: 50px;
   font-family: "Nanum Pen Script", cursive;
 }
 
 #quote {
   font-family: "Mochiy Pop One", sans-serif;
+  margin-top: 260px;
 }
 
 .quote {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+*/
+.hidden {
+  display: none;
 }
